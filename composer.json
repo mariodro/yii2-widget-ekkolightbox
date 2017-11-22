@@ -1,0 +1,29 @@
+{
+    "name": "mdq/yii2-widget-ekkolightbox",
+    "description": "http://ashleydw.github.io/lightbox/",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","ekko","lightbox"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Droguett",
+            "email": "mariodro@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/ekko-lightbox" : "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "mdq\\ekkolightbox\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
